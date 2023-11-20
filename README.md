@@ -47,7 +47,7 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![1.jpg](ссылка на скриншот 1)`
+![1.jpg] [https://github.com/klerononair/hw-02.md/blob/main/img/1.jpg]`
 
 
 ---
@@ -72,9 +72,9 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
-
-
+![2.jpeg]([ссылка на скриншот 2](https://github.com/klerononair/hw-02.md/blob/main/img/2.jpg))`
+![3.jpg] [https://github.com/klerononair/hw-02.md/blob/main/img/3.jpg]`
+![4.jpg] [https://github.com/klerononair/hw-02.md/blob/main/img/4.jpg]`
 ---
 
 ### Задание 3
