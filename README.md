@@ -26,13 +26,18 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
+1. `sudo su ....`
+2. `wget https://repo.zabbix.com/zabbix/6.0/ubuntu-arm64/pool/main/z/zabbix-release/zabbix-release_6.0-5+ubuntu22.04_all.deb ....`
+3. `dpkg -i zabbix-release_6.0-5+ubuntu22.04_all.deb ....`
+4. `apt update ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
+6. `apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent`
+7. `sudo -u postgres createuser --pwprompt zabbix`
+8. `sudo -u postgres createdb -O zabbix zabbix`
+9. `zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix`
+10. `DBPassword=zabbix`
+11. `systemctl restart zabbix-server zabbix-agent apache2`
+12. `systemctl enable zabbix-server zabbix-agent apache2`
 ```
 Поле для вставки кода...
 ....
@@ -42,7 +47,7 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![1.jpg](ссылка на скриншот 1)`
 
 
 ---
